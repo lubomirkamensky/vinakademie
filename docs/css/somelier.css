@@ -1,0 +1,6 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("default.css");
+/* ===================================================== */
+table.layout td.left {
+	background-image: url("../images/bg/left_somelier.jpg");
+}

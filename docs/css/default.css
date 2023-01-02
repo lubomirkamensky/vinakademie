@@ -1,0 +1,169 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("../shared/css/application.css");
+@import url("../shared/css/database.css");
+@import url("../shared/css/icons.css");
+@import url("../shared/css/menu.css");
+@import url("../shared/css/rpc.css");
+@import url("../shared/css/table_layout.css");
+@import url("../shared/css/tools.css");
+@import url("../shared/css/window.css");
+@import url("../shared/css/web.css");
+/* ===================================================== */
+body {
+	background-color: #dcdcdc;
+	text-align: center;
+}
+body, table {
+	font-family: sans-serif; font-size: 12px;
+}
+a {
+	color: #000000;
+}
+a:hover {
+	color: #2e4f24;
+}
+/* LAYOUT ============================================== */
+table.layout {
+	margin: 0 auto 0 auto;
+	text-align: left;
+	width: 960px;
+}
+table.layout td {
+	vertical-align: top;
+}
+/* top ------------------------------------------------- */
+table.layout td.top {
+	height: 239px;
+}
+/* head ------------------------------------------------ */
+table.layout td.head {
+	background: #f6d67f url("../images/bg/head.gif") repeat-x top;
+	height: 63px;
+}
+table.layout td.head div.content {
+	position: relative;
+	padding: 0 0 0 258px;
+}
+/* menu */
+table.layout td.head div.content ul.menu li {
+	display: block;
+	float: left;
+	position: relative;
+}
+table.layout td.head div.content ul.menu li a {
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 7.5 8 0 8px;
+	text-decoration: none; text-transform: uppercase;
+}
+table.layout td.head div.content ul.menu li a:hover {
+	text-decoration: underline;
+}
+table.layout td.head div.content ul.menu li.active a {
+	background-color: #f6d67f;
+	color: #192c0e;
+}
+table.layout td.head div.content ul.menu li ul {
+	background-color: #457836;
+	top: 30px; left: 0;
+	width: 180px;
+}
+table.layout td.head div.content ul.menu li ul li {
+	display: normal;
+}
+table.layout td.head div.content ul.menu li ul li a {
+	padding: 4 4 4 10px;
+	line-height: 20px;
+	width: 100%;
+}
+table.layout td.head div.content ul.menu li ul li > a {
+	display: block;
+	width: auto;
+}
+table.layout td.head div.content ul.menu li ul li.active a {
+	background-color: #457836;
+	color: #ffffff;
+}
+/* left ------------------------------------------------ */
+table.layout td.left {
+	background: #f6d67f url("../images/bg/left.jpg") no-repeat right 20px;
+	width: 258px;
+}
+/* main ------------------------------------------------ */
+table.layout td.main {
+	background-color: #f2f0f1;
+	color: #2e4f24;
+	width: 511px;
+}
+table.layout td.main div.content {
+	min-height: 532px; _height: 572px;
+	padding: 20px;
+}
+table.layout td.main div.content h3 {
+	font-size: 16px;
+}
+table.layout td.main div.content h4 {
+	font-size: 15px;
+}
+table.layout td.main div.content h5 {
+	font-size: 14px;
+}
+table.layout td.main div.content div.text {
+	line-height: 140%;
+}
+/* fotogalerie */
+table.layout td.main div.content div.images div.ico {
+	background-color: #ffffff;
+	line-height: 100%;
+}
+table.layout td.main div.content div.images div a img,
+table.layout td.main div.content img.foto {	
+	border-color: #457836;
+}
+/* uriznute ikony u souboru a nastroju (pokud je mala velikost pisma) */
+table.layout td.main div.content div.alert,
+table.layout td.main div.content div.info,
+table.layout td.main div.content div.files div.ico a {
+	padding: 2.5 0 2.5 20px;
+}
+/* right ----------------------------------------------- */
+table.layout td.right {
+	background-color: #f2f0f1;
+	border-left: 1px solid #457836;
+	width: 191px;
+}
+table.layout td.right div.content {
+	background-color: #ffffff;
+	margin: 10px; padding: 10px;
+}
+/* links */
+table.layout td.right div.content div.links {
+	text-align: center;
+}
+table.layout td.right div.content div.links a {
+	background-repeat: none;
+	display: block;
+	margin: 0px auto 10px auto;
+}
+table.layout td.right div.content div.links a.facebook {
+	background-image: url("../images/logo/facebook.gif");
+	height: 26px; width: 88px;
+}
+table.layout td.right div.content div.links a span {
+	display: none;	
+}
+/* bottom ---------------------------------------------- */
+table.layout td.bottom {
+	background-color: #f6d67f;
+	height: 158px;
+}
+table.layout td.bottom div.content {
+	background: #457836 url("../images/bg/bottom.gif") 250px top no-repeat;
+	color: #f6d67f;
+	margin-top: 30px; padding: 30 0 0 365px;
+	height: 128px;
+}
+table.layout td.bottom div.content a {
+	color: #f6d67f;
+}
